@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Futura';
+  src: url('./fonts/FuturaPTMedium.otf') format('opentype');
+  font-weight: 400; /* Adjust this as per your font weight */
+  font-style: normal;
+}
+
+body{
+  background-color: #ededed;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('./fonts/FuturaPTLight.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('./fonts/FuturaPTBook.otf') format('opentype');
+  font-weight: 400; /* Book (Regular) */
+  font-style: book;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('./fonts/FuturaPTDemi.otf') format('opentype');
+  font-weight: 500; /* Demi */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('./fonts/FuturaPTBold.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: bold;
+}
+
+body {
+  margin: 0;
+  font-family: 'Futura';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.button-animation {
+  position: relative; /* Needed for the transform property */
+  transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.button-animation:hover {
+  transform: translateX(-10px); /* Move 5px to the left on hover */
+}
+
+
+video::-webkit-media-controls-volume-slider {
+  display: none;
+}
+
+video::-webkit-media-controls-mute-button {
+  display: none;
+}
