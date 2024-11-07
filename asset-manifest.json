@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ae47c951.css",
-    "main.js": "/portfolio/static/js/main.46651053.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/FuturaPTBold.otf": "/portfolio/static/media/FuturaPTBold.b22b8109a56a2445c366.otf",
-    "static/media/FuturaPTDemi.otf": "/portfolio/static/media/FuturaPTDemi.2862dbd87fd60c04be93.otf",
-    "static/media/FuturaPTMedium.otf": "/portfolio/static/media/FuturaPTMedium.7af6976ce738bec1704e.otf",
-    "static/media/FuturaPTLight.otf": "/portfolio/static/media/FuturaPTLight.725c77b4e125ed776783.otf",
-    "static/media/FuturaPTBook.otf": "/portfolio/static/media/FuturaPTBook.bc305be0a88a100ad836.otf",
-    "index.html": "/portfolio/index.html",
-    "main.ae47c951.css.map": "/portfolio/static/css/main.ae47c951.css.map",
-    "main.46651053.js.map": "/portfolio/static/js/main.46651053.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/tof24.github.io/portfolio/static/css/main.0633c7f2.css",
+    "main.js": "/tof24.github.io/portfolio/static/js/main.acfb0376.js",
+    "static/js/453.1407b060.chunk.js": "/tof24.github.io/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/FuturaPTBold.otf": "/tof24.github.io/portfolio/static/media/FuturaPTBold.b22b8109a56a2445c366.otf",
+    "static/media/FuturaPTDemi.otf": "/tof24.github.io/portfolio/static/media/FuturaPTDemi.2862dbd87fd60c04be93.otf",
+    "static/media/FuturaPTMedium.otf": "/tof24.github.io/portfolio/static/media/FuturaPTMedium.7af6976ce738bec1704e.otf",
+    "static/media/FuturaPTLight.otf": "/tof24.github.io/portfolio/static/media/FuturaPTLight.725c77b4e125ed776783.otf",
+    "static/media/FuturaPTBook.otf": "/tof24.github.io/portfolio/static/media/FuturaPTBook.bc305be0a88a100ad836.otf",
+    "index.html": "/tof24.github.io/portfolio/index.html",
+    "main.0633c7f2.css.map": "/tof24.github.io/portfolio/static/css/main.0633c7f2.css.map",
+    "main.acfb0376.js.map": "/tof24.github.io/portfolio/static/js/main.acfb0376.js.map",
+    "453.1407b060.chunk.js.map": "/tof24.github.io/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae47c951.css",
-    "static/js/main.46651053.js"
+    "static/css/main.0633c7f2.css",
+    "static/js/main.acfb0376.js"
   ]
 }
