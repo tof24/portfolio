@@ -8,30 +8,25 @@ import NAVIDOC from './pages/navidoc';
 import Spacewalk from './pages/spacewalk';
 import Explainua from './pages/explainua';
 import Tilestories from './pages/Tilestories';
+
 function App() {
-
-
   return (
-
-     <div className='h-full bg-customLight'>
-          
-          <Router className={"display"}>
-
-            <Routes>
-              <Route path="/" element={<Home/>} />
-              <Route path="/projetos" element={<Projetos />} />
-              <Route path="/navidoc" element={<NAVIDOC />} />
-              <Route path="/spacewalk" element={<Spacewalk />} />
-              <Route path="/tilestories" element={<Tilestories />} />
-              <Route path="/explainua" element={<Explainua />} />
-              {/*<Route path="/contact" element={< />} />*/}
-              <Route path="*" element={<h1>404: Page Not Found</h1>} />
-            </Routes>
-            </Router>
-          </div>
-
-     
-    );
+    <div className="h-full bg-customLight">
+      {/* Add the basename here */}
+      <Router basename="/portfolio"> {/* Use /portfolio if your app is deployed to https://username.github.io/portfolio */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projetos" element={<Projetos />} />
+          <Route path="/navidoc" element={<NAVIDOC />} />
+          <Route path="/spacewalk" element={<Spacewalk />} />
+          <Route path="/tilestories" element={<Tilestories />} />
+          <Route path="/explainua" element={<Explainua />} />
+          {/*<Route path="/contact" element={< />} />*/}
+          <Route path="*" element={<h1>404: Page Not Found</h1>} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
