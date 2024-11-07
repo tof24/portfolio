@@ -44,7 +44,7 @@ const NAVIDOC = () => {
     <div className="display h-screen sm:flex sm:flex-col sm:pl-3 z-50">
       {/* Navbar */}
       <nav className="w-full sm:p-4 pt-2 flex justify-between items-center z-40">
-         <Link to={"/"} className="text-lg pl-4 font-medium text-customDark">portfolio</Link>
+         <Link to={"/"} className="text-lg pl-4 font-medium text-customDark">portfoliooooooooooooop</Link>
         <div className='pr-2'>
           <motion.button 
             onClick={toggleMenu} 
