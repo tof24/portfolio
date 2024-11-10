@@ -86,32 +86,32 @@ const Tilestories = () => {
           </motion.button>
 
           <ul className="mt-40 space-y-10 pl-20 font-futura font-medium text-customLight">
-            {["Inicio", "Projetos", "Sobre mim"].map((item) => {
-              // Define the href based on the item
-              let href;
-              if (item === "Inicio") {
-                href = "/";
-              } else if (item === "Projetos") {
-                href = "/projetos";
-              } else if (item === "Sobre mim") {
-                href = "/sobre";
-              } else if (item === "CONTACT") {
-                href = "/contact";
-              }
+  {["Inicio", "Projetos", "Contactos"].map((item) => {
+    // Define the href based on the item
+    let href;
+    if (item === "Inicio") {
+      href = "/";
+    } else if (item === "Projetos") {
+      href = "/projetos";
+    } else if (item === "Sobre mim") {
+      href = "/sobre";
+    } else if (item === "Contactos") {
+      href = "/contactos";
+    }
 
-              return (
-                <motion.li
-                  className=""
-                  key={item}
-                  whileHover={{ x: 10, duration: 0.3 }}
-                >
-                  <Link to={href} className="text-[3vh] ">
-                    {item}
-                  </Link>
-                </motion.li>
-              );
-            })}
-          </ul>
+    return (
+      <motion.li
+        className=""
+        key={item}
+        whileHover={{ x: 10, duration: 0.3 }}
+      >
+        <Link to={href} className="text-[3vh] ">
+          {item}
+        </Link>
+      </motion.li>
+    );
+  })}
+</ul>
         </div>
       </motion.div>
 

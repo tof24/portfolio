@@ -69,7 +69,7 @@ const Projetos =()=>{
           </motion.button>
 
           <ul className="mt-40 space-y-10 pl-20 font-futura font-medium text-customLight">
-  {["Inicio", "Projetos", "Sobre mim", "CONTACT"].map((item) => {
+  {["Inicio", "Projetos", "Contactos"].map((item) => {
     // Define the href based on the item
     let href;
     if (item === "Inicio") {
@@ -78,8 +78,8 @@ const Projetos =()=>{
       href = "/projetos";
     } else if (item === "Sobre mim") {
       href = "/sobre";
-    } else if (item === "CONTACT") {
-      href = "/contact";
+    } else if (item === "Contactos") {
+      href = "/contactos";
     }
 
     return (
