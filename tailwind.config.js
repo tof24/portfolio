@@ -10,7 +10,7 @@ module.exports = {
         customDark: '#222222',
       },
       fontFamily: {
-        futura: ['Futura', 'sans-serif'],
+        futura: ['Jost', 'sans-serif'],
       },
       fontWeight: {
         demi: '500',

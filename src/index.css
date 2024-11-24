@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Futura';
-  src: url('./fonts/FuturaPTMedium.otf') format('opentype');
+  font-family: 'Jost';
+  src: url('./fonts/Jost-Medium.ttf') format('opentype');
   font-weight: 400; /* Adjust this as per your font weight */
   font-style: normal;
 }
@@ -14,36 +14,36 @@ body{
 }
 
 @font-face {
-  font-family: 'Futura';
-  src: url('./fonts/FuturaPTLight.otf') format('opentype');
+  font-family: 'Jost';
+  src: url('./fonts/Jost-Light.ttf') format('opentype');
   font-weight: 300; /* Light */
   font-style: light;
 }
 
 @font-face {
-  font-family: 'Futura';
-  src: url('./fonts/FuturaPTBook.otf') format('opentype');
+  font-family: 'Jost';
+  src: url('./fonts/Jost-Regular.ttf') format('opentype');
   font-weight: 400; /* Book (Regular) */
   font-style: book;
 }
 
 @font-face {
-  font-family: 'Futura';
-  src: url('./fonts/FuturaPTDemi.otf') format('opentype');
+  font-family: 'Jost';
+  src: url('./fonts/Jost-SemiBold.ttf') format('opentype');
   font-weight: 500; /* Demi */
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Futura';
-  src: url('./fonts/FuturaPTBold.otf') format('opentype');
+  font-family: 'Jost';
+  src: url('./fonts/Jost-Bold.ttf') format('opentype');
   font-weight: 700; /* Bold */
   font-style: bold;
 }
 
 body {
   margin: 0;
-  font-family: 'Futura';
+  font-family: 'Jost';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
